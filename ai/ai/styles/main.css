@@ -1,0 +1,14 @@
+/* 导入所有样式模块 */
+@import './variables.css';
+@import './layout.css';
+@import './components.css';
+@import './typography.css';
+@import './navigation.css';
+@import './footer.css';
+
+/* 重置样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

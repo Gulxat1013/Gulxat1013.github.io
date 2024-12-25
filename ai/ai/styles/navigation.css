@@ -1,0 +1,31 @@
+.sidebar-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0 1.25rem 1.25rem;
+  color: var(--text-color);
+}
+
+.sidebar nav {
+  padding-top: 0.5rem;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 0.5rem 1.25rem;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  margin: 0.25rem 0.75rem;
+}
+
+.sidebar nav a:hover {
+  background-color: var(--hover-bg);
+  color: var(--text-color);
+}
+
+.sidebar nav a.active {
+  background-color: var(--hover-bg);
+  color: var(--primary-color);
+  font-weight: 500;
+}

@@ -1,0 +1,66 @@
+.block {
+  background: var(--card-bg);
+  border-radius: 3px;
+  padding: var(--block-spacing);
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.2s ease;
+}
+
+.block:hover {
+  background-color: var(--hover-bg);
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  background-color: var(--hover-bg);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.content-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
+}
+
+.timeline {
+  margin: 1.5rem 0;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+}
+
+.timeline-item .year {
+  min-width: 80px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.timeline-item .event {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border-color);
+}
